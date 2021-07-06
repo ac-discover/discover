@@ -21,28 +21,34 @@
   </head>
   <body class="d-flex flex-column h-100">
 
-<main style="z-index: 3;">
-  <header class="p-3 bg-light">
-    <div class="parte">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="index.html" class="nav-link px-2 text-secondary"><img src="dist/img/logo.svg"></a></li>
-        </ul>
-
-        <div class="text-end">
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a type="button" href="index.html" class="menu-btn nav-link px-2"><img src="dist/img/visao.svg"> Visão</a></li> 
-          <li><a type="button" href="roadmap.html" class="menu-btn nav-link px-2"><img src="dist/img/roadmap.svg"> Roadmap</a></li>            
-          <li><a type="button" href="artigos.html" class="menu-btn nav-link px-2"><img src="dist/img/blog.svg"> Artigos</a></li>
-          <li><a type="button" href="ecossistema-geral.html" class="menu-btn nav-link px-2"><img src="dist/img/eco.svg"> Ecossistema</a></li>
-          <li><a type="button" href="ideias.html" class="menu-btn nav-link px-2"><img src="dist/img/ideias.svg"> Ideias e Pedidos</a></li>
-        </ul>
-        </div>
-      </div>
+<nav class="navbar sticky-top navbar-expand-lg" style="background-color: white;">
+  <div class="container-fluid">
+    <a class="navbar-brand eco-link" href="index.html"><img src="dist/img/logo.svg"></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><img src="dist/img/menu.svg"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+        <a class="menu-btn nav-link active" aria-current="page" href="index.html"><img src="dist/img/visao.svg"> Visão</a>
+        </li>
+        <li class="nav-item">
+        <a class="menu-btn nav-link" href="roadmap.html"><img src="dist/img/roadmap.svg"> Roadmap</a>
+      </li>
+      <li class="nav-item">
+        <a class="menu-btn nav-link" href="artigos.html"><img src="dist/img/blog.svg"> Artigos</a>
+      </li>
+      <li class="nav-item">
+        <a class="menu-btn nav-link" href="ecossistema-geral.html"><img src="dist/img/eco.svg"> Ecossistema</a>
+      </li>
+      <li class="nav-item">
+        <a class="menu-btn nav-link" href="ideias.html"><img src="dist/img/ideias.svg"> Ideias e Pedidos</a>
+      </li>
+      </ul>
     </div>
-  </header>
-</main>
+  </div>
+
+</nav>
 
   <div class="roadmap-visao-box">
   <blockquote class="roadmap-visao-texto">VISÃO<br>"Vamos desenvolver novas e melhores formas para <strong>[evoluir]</strong> a gestão de processos e pessoas, <strong>[guiar]</strong> a tomada de decisões inteligentes e <strong>[aproximar]</strong> a comunicação entre as redes e centrais de negócios e todo o <strong>[universo]</strong> que faz parte dela."
@@ -62,7 +68,7 @@
         <img class="img-roadmap" src="dist/img/obj.svg" alt="">
       </div><div class="roadmap-content">        
         
-        <h2>Objetivos</h2>
+        <div class="artigo-card-titulo">Objetivos</div>
         <p>Aumentar a participação e engajamento dos gestores, associados e fornecedores na utilização da plataforma</p>
           <hr>
 </div>
@@ -70,7 +76,7 @@
         <img class="img-roadmap" src="dist/img/chave.svg" alt="">
       </div><div class="roadmap-content"> 
         
-        <h2>Resultados-Chave</h2>
+        <div class="artigo-card-titulo">Resultados-Chave</div>
         <ul>
             <li>Versão Mobile</li>
             <li>Rede Social</li>
@@ -81,20 +87,22 @@
         <div class="blog-img-esq">
         <img class="img-roadmap" src="dist/img/metrica.svg" alt="">
       </div><div class="roadmap-content"> 
-        
-          <h2>Métricas</h2>
-        <p>% de acesso semanal dos usuários a plataforma</p>
+          <div class="artigo-card-titulo">Métricas</div>
+          <div class="metricas">
+        % de acesso semanal dos usuários a plataforma
         <div class="progress">
   <span class="progress-bar" style="width: 55%"></span>
-</div>
-          <p>% de acesso via mobile</p>
+</div></div>
+          <div class="metricas">
+          % de acesso via mobile
         <div class="progress">
   <span class="progress-bar" style="width: 5%"></span>
-</div>
-          <p>Qtde de postagens, reações e comentários na rede social</p>
+</div></div>
+          <div class="metricas">
+          Qtde de postagens, reações e comentários na rede social
         <div class="progress">
   <span class="progress-bar" style="width: 5%"></span>
-            </div>
+            </div></div>
            
 
 
@@ -107,19 +115,19 @@
       <div class="timeline-img"></div>
  
       <div class="timeline-content js--fadeInLeft">
-       <div class="blog-img-dir">
+       <div class="blog-img-esq">
         <img class="img-roadmap" src="dist/img/obj.svg" alt="">
       </div><div class="roadmap-content">        
         
-        <h2>Objetivos</h2>
+        <div class="artigo-card-titulo">Objetivos</div>
         <p>Entregar informação de qualidade para a tomada de decisões inteligentes</p>
           <hr>
 </div>
-    <div class="blog-img-dir">
+    <div class="blog-img-esq">
         <img class="img-roadmap" src="dist/img/chave.svg" alt="">
       </div><div class="roadmap-content"> 
         
-        <h2>Resultados-Chave</h2>
+        <div class="artigo-card-titulo">Resultados-Chave</div>
         <ul>
             <li>Inteligência de Compras</li>
             <li>Inteligência de Vendas</li>
@@ -127,15 +135,16 @@
           </ul>
           <hr>
 </div>
-        <div class="blog-img-dir">
+        <div class="blog-img-esq">
         <img class="img-roadmap" src="dist/img/metrica.svg" alt="">
       </div><div class="roadmap-content"> 
         
-          <h2>Métricas</h2>
-        <p>% de redes que utilizam o painel de indicadores</p>
+          <div class="artigo-card-titulo">Métricas</div>
+          <div class="metricas">
+        % de redes que utilizam o painel de indicadores
         <div class="progress">
   <span class="progress-bar" style="width: 10%"></span>
-</div>
+</div></div>
              
         </div>
       </div>
@@ -159,7 +168,7 @@
         <img class="img-roadmap" src="dist/img/obj.svg" alt="">
       </div><div class="roadmap-content">        
         
-        <h2>Objetivos</h2>
+       <div class="artigo-card-titulo">Objetivos</div>
         <p>Entregar inteligência para a tomada de decisões.</p>
         </div>
       </div>
@@ -170,11 +179,11 @@
       <div class="timeline-img"></div>
  
       <div class="timeline-content js--fadeInLeft">
-       <div class="blog-img-dir">
+       <div class="blog-img-esq">
         <img class="img-roadmap" src="dist/img/obj.svg" alt="">
       </div><div class="roadmap-content">        
         
-        <h2>Objetivos</h2>
+        <div class="artigo-card-titulo">Objetivos</div>
         <p>Entrar mais a fundo na gestão de processos e pessoas.</p>
 </div>
       </div>
@@ -189,7 +198,7 @@
         <img class="img-roadmap" src="dist/img/obj.svg" alt="">
       </div><div class="roadmap-content">        
         
-        <h2>Objetivos</h2>
+        <div class="artigo-card-titulo">Objetivos</div>
         <p>Expandir o mercado para novos segmentos e/ou territórios.</p>
 </div>
       </div>
