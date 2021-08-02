@@ -550,6 +550,9 @@ section {
    h1 {
      font-size: 2rem;
   }
+   .sep {
+  overflow-y: auto !important;
+}
 }
 .h2-index {
   z-index: 2;
