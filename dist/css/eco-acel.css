@@ -299,6 +299,10 @@ canvas {
   margin-left: 50px;
 }
 
+.navigation-circle-list-item__meta {
+	display: none;
+}
+
 .navigation-circle__list {
     display: block;
     position: absolute;
