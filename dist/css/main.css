@@ -861,9 +861,8 @@ section {
 
 .small-box{
     border-radius: 0.50rem;
-    margin: 30px;
-    min-width: 40vh;
-    min-height: 25vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
     box-shadow: 9px 9px 15px -9px rgb(74 82 150 / 15%);
     display: block;
     position: relative;
@@ -1040,7 +1039,7 @@ section {
 
 .blog-box {
   padding: 40px;
-  min-height: 38vh;
+  min-height: 40vh;
 }
 
 .artigo-card-bot {
