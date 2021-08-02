@@ -154,7 +154,7 @@ fill: #814B97;
 
 .wrap{
   position:relative;
-  width:65vmin; height:65vmin;
+  width:75vmin; height:75vmin;
   transform: scale(.8) translateZ(0px);
   opacity: 1;
   transition:transform .5s, opacity .5s;
@@ -444,7 +444,7 @@ right: 10%;
 }
 
 .wrap {
-	margin-left: 50px;
+	margin-left: 20px;
 	margin-top: 20px;
 }
 }
