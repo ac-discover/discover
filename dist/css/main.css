@@ -372,6 +372,12 @@ fill: #814B97;
 
 @media only screen and (max-width: 600px) {
 
+.ideia-tab {
+  flex-wrap: nowrap;
+  width: max-content;
+  margin-bottom: 20px;
+}
+
 .img-fluid {
 	  max-width: 30px;
 }	
@@ -891,10 +897,10 @@ section {
 }
 
 .card-bot {
-    padding: 15px;
-    bottom: 0;
-    position: absolute;
-    right: 0;
+  padding: 15px;
+  bottom: 0;
+  text-align: -webkit-right;
+  right: 0;
 }
 
 .categoria-texto {
@@ -1047,4 +1053,8 @@ section {
     bottom: 0;
     position: absolute;
     right: 0;
+}
+
+.ideia-tab {
+  margin-bottom: 20px;
 }
